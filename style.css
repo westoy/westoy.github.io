@@ -1,0 +1,211 @@
+
+h1, address {
+    font-size: 50px;
+    line-height: 50px;
+    padding: 84px;
+}
+
+
+main #content p {
+    text-align: justify;
+}
+
+
+main p  {
+    font-size: 50px;
+    line-height: 84px;
+}
+
+*, body, main, div, img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #0d0d0d;
+	color: #ccc;
+	font-family:  'GoodSansLight', sans-serif;
+	font-weight: normal;
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: antialiased;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+
+
+
+
+@media (max-width: 1119px) {
+	body {
+		font-family: 'GoodSansLight', sans-serif;
+	}
+}
+
+main {
+	overflow-x: hidden;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+	position: relative;
+}
+
+@keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-ms-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+@-o-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+
+h1, address {
+ 
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	display: block;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+   font-size:50px;
+}
+
+h1 {
+	top: 0;
+}
+
+address {
+	bottom: 0;
+
+}
+
+main #content {
+	margin: 20%;
+	overflow: visible;
+}
+
+main #content p {
+	text-align: justify;
+}
+
+img {
+	width: 1px;
+	height: 1px;
+	position: fixed;
+	top: -100px;
+	left: -100px;
+}
+
+a, a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+	border-bottom: 2px solid #0d0d0d;
+	padding-bottom: .04em;
+}
+
+a:hover, a:active {
+	cursor: pointer;
+	color: #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+@media (max-width: 1280px) {
+	a, a:link, a:visited {
+		border-bottom: 1px solid #0d0d0d;
+	}
+	a:hover, a:active {
+	border-bottom: 2px solid #ccc;
+	}
+}
+
+.example {
+	cursor: crosshair;
+	box-sizing: border-box;
+	position: relative;
+	background: #0d0d0d;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	padding: .16em .24em .16em .24em;
+	white-space: nowrap;
+	z-index: 10;
+}
+
+.example:hover, .example:focus {
+	color: #0d0d0d;
+   background-color: #fff;
+	z-index: 20;
+	border-color: #0d0d0d;
+}
+
+.example::after {
+	content: "";
+	opacity: 0;
+	pointer-events: none;
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	transition: 160ms ease-out opacity;
+}
+
+.example:hover::after {
+	opacity: 1;
+	transition: 260ms ease-in opacity;
+}
+
+.example#this-also::after {
+	background-image: url("http://brian-baker.com/img/this-also.jpg");
+	background-size: cover;
+}
+
+.example#google-identity::after {
+	background-image: url("http://brian-baker.com/img/google-identity.gif");
+	background-size: 40%;
+}
+
+.example#google-assistant-logo::after {
+	background-image: url("http://brian-baker.com/img/google-assistant-logo.gif");
+	background-size: 40%;
+}
+
+.example#google-for-ios::after {
+	background-image: url("http://brian-baker.com/img/google-for-ios.jpg");
+	background-size: cover;
+}
+
+.example#hbo::after {
+	background-image: url("http://brian-baker.com/img/hbo.jpg");
+	background-size: cover;
+}
+
+.example#mtv::after {
+	background-image: url("http://brian-baker.com/img/mtv.jpg");
+	background-size: cover;
+}
+
+
+.oval {
+	background: #0d0d0d;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius: 50% 50%;
+	-webkit-border-radius: 50% 50%;
+	border-radius: 50% 50%;
+	padding: .21em 1em .21em 1em;
+	white-space: pre;
+}
+
+
+
