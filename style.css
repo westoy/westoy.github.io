@@ -24,7 +24,7 @@ main p  {
 body {
 	background-color: #0d0d0d;
 	color: #ccc;
-	font-family:  'GoodSansLight', sans-serif;
+	font-family:  'Montserrat', sans-serif;
 	font-weight: normal;
 	text-rendering: geometricPrecision;
 	-webkit-font-smoothing: antialiased;
@@ -43,7 +43,7 @@ body {
 
 @media (max-width: 1119px) {
 	body {
-		font-family: 'GoodSansLight', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 	}
 }
 
